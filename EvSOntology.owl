@@ -1,0 +1,1661 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology/"
+     xml:base="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology">
+        <rdfs:comment></rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Far -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Far">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#distance_Relation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Near -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Near">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#distance_Relation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Semantic_Relation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Semantic_Relation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#adjacentTo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#adjacentTo">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#topological_Relation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#at_an_Angle_Of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#at_an_Angle_Of">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#directional_Relation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#between -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#between">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#directional_Relation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#between_a_distance_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#between_a_distance_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#distance_Relation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#contains -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#contains">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#topological_Relation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#directional_Relation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#directional_Relation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#distance_Relation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#distance_Relation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasPart -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasPart">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Semantic_Relation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasPartAirport -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasPartAirport">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasPart"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Office_Block"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Acces_road"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#concrete_area"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#vegetation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasPartHospital_complex -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasPartHospital_complex">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasPart"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Hospital_complex"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Green_space"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Parking"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hospital_building"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#road"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasPartIndustrial_Area -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasPartIndustrial_Area">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasPart"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Industrial_Area"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Building_area"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Storage_zone"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#industrialparking"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#way"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasPartOffice_Block -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasPartOffice_Block">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasPart"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Office_Block"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Acces_road"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#concrete_area"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#vegetation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasPartPort -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasPartPort">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasPart"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Port"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Concrete_area"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Harbour_structure"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Others"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Ship"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Water"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasPartResidential_Area -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasPartResidential_Area">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasPart"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Residential_Area"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Green_spaces"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Street"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#buildings"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasPartRoad_network -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasPartRoad_network">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasPart"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Road_network"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Bridges"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Interchange"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Junction_element"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Other"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Parking_Areas"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Pedestrian_Infrastructure"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Way"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasPartShopping_Mall -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasPartShopping_Mall">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasPart"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Shopping_Mall"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Car_Park"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Road"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#building"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasPartSport_Complex -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasPartSport_Complex">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasPart"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Sport_Complex"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Sport_Field"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Swimming_pool"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#other"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#parkings"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#sport_Building"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasPartUniversity_campus -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasPartUniversity_campus">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasPart"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#University_campus"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Building"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Parking_area"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Roads"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Sport_ground"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasPartUrban_Parc -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasPartUrban_Parc">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasPart"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Urban_Parc"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Concrete_surfaces"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Service_building"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasType -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasType">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Semantic_Relation"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ReflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasTypeAirportBuild -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasTypeAirportBuild">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasType"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Airport_Buildings"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Terminal"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasTypeCampusBuild -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasTypeCampusBuild">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasType"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Building"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Academic_building"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Student_residence"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasTypeCampusRoad -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasTypeCampusRoad">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasType"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Roads"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#main_traffic_alley"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasTypeHarbourStructure -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasTypeHarbourStructure">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasType"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Harbour_structure"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Quay"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasTypeHospitalRoad -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasTypeHospitalRoad">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasType"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#road"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Alley"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasTypeHospitalbuild -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasTypeHospitalbuild">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasType"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hospital_building"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#principal_building"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasTypeIndustrialBuild -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasTypeIndustrialBuild">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasType"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Building_area"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Warehouses"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#industrial_building"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasTypeOfficeAccessRoad -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasTypeOfficeAccessRoad">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasType"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Acces_road"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Avenue"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Driveway"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasTypeOfficeConcreteArea -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasTypeOfficeConcreteArea">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasType"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#concrete_area"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#parking"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#principal_buildings"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasTypePortConcreteSurface -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasTypePortConcreteSurface">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasType"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Concret_surface"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Car_Parks"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Runaway"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Taxiways"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasTypePortShip -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasTypePortShip">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasType"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Ship"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Boat"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasTypeResidentialBuild -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasTypeResidentialBuild">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasType"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#buildings"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Apartment"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#House"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasTypeResidentialSpace -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasTypeResidentialSpace">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasType"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Green_spaces"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Community_green_space"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Public_parks"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#garden"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasTypeResidentialStreet -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasTypeResidentialStreet">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasType"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Street"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Dead-end_street"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Residential_street"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasTypeSportBuilding -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasTypeSportBuilding">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasType"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#sport_Building"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Sport_hall"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasTypeSportField -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasTypeSportField">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasType"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Sport_Field"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#gras_field"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#land"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasTypeSportOther -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasTypeSportOther">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasType"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#other"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#stadium_stand"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasTypeUrbanConcreteSurface -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasTypeUrbanConcreteSurface">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasType"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Concrete_surfaces"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Land"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Paved_driveway"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasTypeWater -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasTypeWater">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasType"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Water"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Sea"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#parallel -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#parallel">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#directional_Relation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#surroundBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#surroundBy">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#directional_Relation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#topological_Relation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#topological_Relation"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasArea -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasArea"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasCompastness -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasCompastness"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasDiameter -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasDiameter"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasElongation -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasElongation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasHeight -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasHeight"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasID -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasID"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasLength -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasLength"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasMortonIndex -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasMortonIndex"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasNDVI -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasNDVI"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasPerimeter -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasPerimeter"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasTexture -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hasTexture"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Academic_building -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Academic_building">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Building"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Acces_road -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Acces_road">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Office_Block"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Administrative_building -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Administrative_building">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Buildings"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Airplane -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Airplane">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Airport"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Airport -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Airport">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Transport_Infrastructure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Airport_Buildings -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Airport_Buildings">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Airport"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Alley -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Alley">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#road"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Annex_and_technical_building -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Annex_and_technical_building">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hospital_building"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Apartment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Apartment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#buildings"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Avenue -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Avenue">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Acces_road"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Boat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Boat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Ship"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Bridges -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Bridges">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Road_network"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Building -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Building">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#University_campus"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Building_area -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Building_area">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Industrial_Area"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Buildings -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Buildings">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Concrete_area"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Car_Park -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Car_Park">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Shopping_Mall"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Car_Parks -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Car_Parks">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Concret_surface"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Community_green_space -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Community_green_space">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Green_spaces"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#CompGeoObject -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#CompGeoObject"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Concret_surface -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Concret_surface">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Airport"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Concrete_area -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Concrete_area">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Port"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Concrete_surfaces -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Concrete_surfaces">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Urban_Parc"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Container_ship -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Container_ship">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Ship"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Control_Tower -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Control_Tower">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Airport_Buildings"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Crossroads -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Crossroads">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Junction_element"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Dead-end_street -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Dead-end_street">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Street"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Dock -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Dock">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Harbour_structure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Driveway -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Driveway">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Acces_road"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Fast_exit_route -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Fast_exit_route">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#road"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Green_Area -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Green_Area">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Vegetation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Green_Space_and_Recreation_Area -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Green_Space_and_Recreation_Area">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#CompGeoObject"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Green_area -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Green_area">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#vegetation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Green_space -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Green_space">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Hospital_complex"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Green_spaces -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Green_spaces">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Residential_Area"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#HIghway -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#HIghway">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Way"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Hangar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Hangar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Airport_Buildings"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Harbour_structure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Harbour_structure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Port"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Hospital_complex -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Hospital_complex">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Public_Infrastructure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#House -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#House">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#buildings"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Industrial_Area -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Industrial_Area">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Industrial_Infrastructure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Industrial_Infrastructure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Industrial_Infrastructure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#CompGeoObject"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Interchange -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Interchange">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Road_network"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Jetty -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Jetty">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Harbour_structure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Junction_element -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Junction_element">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Road_network"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Land -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Land">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Concrete_surfaces"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Library -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Library">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Building"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Lowns -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Lowns"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Main_roads -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Main_roads">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Way"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Office_Block -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Office_Block">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Public_Infrastructure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Other -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Other">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Road_network"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Others -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Others">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Port"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Overpasses -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Overpasses">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Bridges"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Parking -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Parking">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Hospital_complex"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Parking_Areas -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Parking_Areas">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Road_network"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Parking_Lots -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Parking_Lots">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Parking_Areas"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Parking_area -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Parking_area">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#University_campus"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Paved_driveway -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Paved_driveway">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Concrete_surfaces"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Pedestrian_Crossings -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Pedestrian_Crossings">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Pedestrian_Infrastructure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Pedestrian_Infrastructure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Pedestrian_Infrastructure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Road_network"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Pedestrian_traffic_zone -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Pedestrian_traffic_zone">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Road"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Port -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Port">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Transport_Infrastructure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Public_Infrastructure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Public_Infrastructure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#CompGeoObject"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Public_parks -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Public_parks">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Green_spaces"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Quay -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Quay">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Harbour_structure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#ROAD -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#ROAD">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Concrete_surfaces"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Residential_Area -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Residential_Area">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Urban_Infrastructure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Residential_street -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Residential_street">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Street"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Road -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Road">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Shopping_Mall"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Road_access -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Road_access">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#way"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Road_network -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Road_network">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Transport_Infrastructure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Roads -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Roads">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#University_campus"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Roundabouts -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Roundabouts">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Junction_element"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Runaway -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Runaway">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Concret_surface"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Sea -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Sea">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Water"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Secondary_roads -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Secondary_roads">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Way"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Service_building -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Service_building">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Urban_Parc"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Services_building -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Services_building">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#sport_Building"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Shadow -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Shadow">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Airport"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Ship -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Ship">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Port"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Shopping_Mall -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Shopping_Mall">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Urban_Infrastructure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Sidewalks -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Sidewalks">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Pedestrian_Infrastructure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Sport_Complex -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Sport_Complex">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Green_Space_and_Recreation_Area"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Sport_Field -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Sport_Field">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Sport_Complex"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Sport_ground -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Sport_ground">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#University_campus"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Sport_hall -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Sport_hall">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#sport_Building"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Storage_area -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Storage_area">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Concrete_area"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Storage_zone -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Storage_zone">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Industrial_Area"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Street -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Street">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Residential_Area"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Student_residence -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Student_residence">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Building"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Swimming_pool -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Swimming_pool">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Sport_Complex"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Taxiways -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Taxiways">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Concret_surface"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Terminal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Terminal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Airport_Buildings"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Transport_Infrastructure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Transport_Infrastructure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#CompGeoObject"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Trees -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Trees"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#University_campus -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#University_campus">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Public_Infrastructure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#University_restaurant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#University_restaurant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Building"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Urban_Infrastructure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Urban_Infrastructure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#CompGeoObject"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Urban_Parc -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Urban_Parc">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Green_Space_and_Recreation_Area"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Urban_streets -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Urban_streets">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Way"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Vegetation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Vegetation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#CompGeoObject"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Viaducts -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Viaducts">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Bridges"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Warehouse -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Warehouse">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Concrete_area"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Warehouses -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Warehouses">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Building_area"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Water -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Water">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Port"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Way -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Way">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Road_network"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#building -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#building">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Shopping_Mall"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#buildings -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#buildings">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Residential_Area"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#commercial_building -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#commercial_building">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#building"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#concrete_area -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#concrete_area">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Office_Block"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#garden -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#garden">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Green_spaces"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#gras_field -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#gras_field">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Sport_Field"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#green_area -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#green_area"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#harbour_control_tower -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#harbour_control_tower">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Buildings"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hospital_building -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hospital_building">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Hospital_complex"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#industrial_building -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#industrial_building">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Building_area"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#industrialparking -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#industrialparking">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Industrial_Area"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#land -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#land">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Sport_Field"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#lown -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#lown">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Vegetation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#main_traffic_alley -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#main_traffic_alley">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Roads"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#medical_center -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#medical_center">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#sport_Building"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#other -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#other">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Sport_Complex"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#parking -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#parking">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#concrete_area"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#parkings -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#parkings">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Sport_Complex"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#principal_building -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#principal_building">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#hospital_building"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#principal_buildings -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#principal_buildings">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#concrete_area"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#public_garden -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#public_garden">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Vegetation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#public_private_parking -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#public_private_parking">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Parking_Areas"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#road -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#road">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Hospital_complex"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#roads -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#roads">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Sport_Field"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#roadway -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#roadway">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#way"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#sport_Building -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#sport_Building">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Sport_Complex"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#stadium_stand -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#stadium_stand">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#other"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#trees -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#trees">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Vegetation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#vegetation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#vegetation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Office_Block"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#warehouse -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#warehouse">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#building"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#way -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#way">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Industrial_Area"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#bus/tram_lanes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#bus/tram_lanes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ayadi/ontologies/2024/9/EvRSOntology#Other"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
